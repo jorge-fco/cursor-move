@@ -1,5 +1,6 @@
-js/*
-css/*
+assets/*
 node_modules/*
 package.json
 package-lock.json
+prepros-6.config
+prepros.config

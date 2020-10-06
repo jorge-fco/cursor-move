@@ -8,23 +8,58 @@
 	<title>Cursor Move</title>
 
 	<!--CSS-->
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="assets/dist/app.min.css?v=0.01">
 </head>
-<body>
-	<header>
-		
+<body class="js-body">
+	<!--CURSOR-->
+	<div class="page__cursor js-page-cursor">
+		<div class="page__cursor__circle"></div>
+	</div>
+	<!--CURSOR-->
+
+	<header class="header">
+		<div class="">
+			<div class="">
+				<a href="">My brand</a>
+			</div>
+		</div>
 	</header>
 
-	<main>
-		
+	<main class="page">
+		<section class="page__section">
+			<div class="page__section__thumb">
+				<div class="page__section__image">
+					<figure>
+						<img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Jorge Fco : www.jorge-fco.com">
+						<figcaption>explanatory caption</figcaption>
+					</figure>
+				</div>
+				<div class="page__section__text">
+					<h1>Jorge Fco.</h1>
+					<p>Front-end developer</p>
+				</div>
+			</div>
+		</section>
 	</main>
 
-	<footer>
-		
+	<footer class="footer">
+		<div class="footer__container">
+			<!--ROW-->
+			<div class="footer__row" role="row">
+				<div class="">
+					
+				</div>
+				<div class="">
+					
+				</div>
+			</div>
+			<!--ROW-->
+		</div>
 	</footer>
 
-	<svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
-		<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
-	</svg>
+	<!--JS-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="assets/dist/vendors.min.js?v=" type="text/javascript"></script>
+	<script src="assets/dist/app.min.js?v=" type="text/javascript"></script>
 </body>
 </html>
