@@ -5,10 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!--TITLE-->
 	<title>Cursor Move</title>
 
-	<!--CSS-->
-	<link rel="stylesheet" href="assets/dist/app.min.css?v=0.01">
+	<!--F O N T S-->
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+	<!--C S S-->
+	<link rel="stylesheet" href="assets/dist/app.min.css?v=0.02">
 </head>
 <body class="js-body">
 	<!--CURSOR-->
@@ -17,49 +22,72 @@
 	</div>
 	<!--CURSOR-->
 
+	<!--HEADER-->
 	<header class="header">
-		<div class="">
-			<div class="">
-				<a href="">My brand</a>
+		<div class="header__container">
+			<!--ROW-->
+			<div class="header__row" role="row">
+				<div class="header__logo">
+					<a href="#">
+						Fashion®
+					</a>
+				</div>
+				<div class="header__contact">
+					<a href="#">Contact</a>
+				</div>
 			</div>
+			<!--ROW-->
 		</div>
 	</header>
+	<!--HEADER-->
 
 	<main class="page">
 		<section class="page__section">
+			<!--IMAGE-->
 			<div class="page__section__thumb">
-				<div class="page__section__image">
+				<div class="page__section__image js-page-section-image">
+					<div class="page__section__image__loader is-loader--01 js-page-section-image-loader-01" role="loader"></div>
+					<div class="page__section__image__loader is-loader--02 js-page-section-image-loader-02" role="loader"></div>
+
 					<figure>
-						<img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Jorge Fco : www.jorge-fco.com">
-						<figcaption>explanatory caption</figcaption>
+						<img src="https://images.unsplash.com/photo-1587754568293-1d042d43fff5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80" alt="Jorge Fco : www.jorge-fco.com">
+						<figcaption>Fashion Designer</figcaption>
 					</figure>
 				</div>
-				<div class="page__section__text">
-					<h1>Jorge Fco.</h1>
-					<p>Front-end developer</p>
-				</div>
 			</div>
+			<!--IMAGE-->
+
+			<!--TEXT-->
+			<div class="page__section__text">
+				<h1 class="js-page-section-title">Laura Chouette</h1>
+				<p class="js-page-section-text">Fashion Designer.</p>
+			</div>
+			<!--TEXT-->
 		</section>
 	</main>
 
+	<!--FOOTER-->
 	<footer class="footer">
 		<div class="footer__container">
 			<!--ROW-->
 			<div class="footer__row" role="row">
-				<div class="">
-					
+				<div class="footer__copyright">
+					<span>Copyright ©2020 All rights reserved.</span>
 				</div>
-				<div class="">
-					
+				<div class="footer__location">
+					<address>
+						London, Vereinigtes Königreich.
+					</address>
 				</div>
 			</div>
 			<!--ROW-->
 		</div>
 	</footer>
+	<!--FOOTER-->
 
 	<!--JS-->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-	<script src="assets/dist/vendors.min.js?v=" type="text/javascript"></script>
-	<script src="assets/dist/app.min.js?v=" type="text/javascript"></script>
+	<script src="assets/dist/vendors.min.js?v=0.01" type="text/javascript"></script>
+	<script src="assets/dist/app.min.js?v=0.01" type="text/javascript"></script>
 </body>
 </html>
