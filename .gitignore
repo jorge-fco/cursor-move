@@ -1,5 +1,6 @@
 assets/*
 !assets/dist/
+!assets/favicons/
 node_modules/*
 package.json
 package-lock.json
